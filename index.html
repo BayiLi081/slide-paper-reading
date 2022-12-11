@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Presentation</title>
+    <link href="imgs/logo.svg" rel="icon" type="image/svg"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      body {
+        font-family: 'Droid Serif', serif;
+        font-size: 1.2em;
+        color: #333;
+        background: #fff;
+        margin: 0;
+        padding: 0;
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      .image-60 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      }
+
+      .image-75 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      }
+        #slideshow .slide > .left
+        {
+          text-align: left;
+        }
+
+      #slideshow .slide .content code { font-family: 'Consolas', monospace; font-size: 24px; }
+      code { position: relative; text-align: left; }
+      code .function {color: #900;}
+      iframe { border: 0; width: 100%; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: top, left
+
+# Bayi Li
+
+<!-- I am a **Senior Research Scientist** at the [Lee Kuan Yew Centre for Innovative Cities](https://lkycic.sutd.edu.sg/people/researchers/li-bayi). -->
+
+???
+
+Hi, my name is Bayi. 
+
+- As you can see, I have been trained with both urban planning and GIS seperately in Shanghai and Edinburgh. Also, I have some industrial experiences from internshiop and my last job as GIS analyst. 
+- Currently, I am a fulltime research assistant in a research centre at Singapore. Mainly, I am responsible with data analysis and modelling depending on the projects needs. 
+- I am passionate about using GIS technology and mathematical models to understand city as a complex system. 
+- I learnt about urban design and policy analysis during my undergraduates. 
+- Since I have steered myself into more quantative direction year ago, I also have extensive experience in data analysis and visulization, agentbased modeling, and some basic knowledge of machine learning and web development.
+- I am eager to apply my knowledge and skills to programme, which I regard has a similar multi-disciplinary nature as mine.
+
+- I would like to share some of my past and ongoing projects with you.
+---
+
+<!-- page 1 -->
+
+### Human mobility during the pandemic
+
+1. Identify the mobility patterns of people using GPS and public transport data during the pandemic
+2. Explorative analysis of physical places, planning strategies and mobility outcomes
+
+
+???
+
+This is a project I just wrapped up. So the idea is
+- During pandemic, the human mobility has been changed dramatically. We want to see if the change is substantial and continuous. - Also Singapore's planning strategy is decentralization, the pandemic make people's activity zone more localised. And we trying to draw the relation between mobility and top urban structure.
+- So we use GPS datapoint and public transport data across three year (2019, 2020 and 2021) to identify the mobility patterns of people before pandemic, during the pandemic, and late pandemic.
+- Of course, technically, we are still in the pandemic, so we also conducted a sample of questionaire to see the residents' mobility motivation.
+
+---
+
+### Agent-based modelling and COVID-19
+
+1. Evaluate the effectiveness of lockdown intervention
+2. Better understanding of the individual transmission dynamics
+3. Observe and advise the duration and intensity of the NPIs
+
+???
+
+This is my master dissertation project. The idea is to use agent-based modelling to simulate the transmission of COVID-19 in urban space. As you can see in the figure, the model is based on the real GIS data including socialdemographical data and land use data. The model only includes two scenarios: with lockdown and without lockdown. By comparing the two scenarios, we can see the curve in different population group and the effectiveness of lockdown intervention. I have to admit this research has some limitations. For example, the model based on simplified assumptions and approximations. So the accracy compared to real data is not so good. Also, the model is only based on the real data in London, you can see the environment where the agents moves is quite customised, so it is not general to other countries. But I think it is still showing a fraction of reality and a good start to understand the transmission dynamics of COVID-19.
+
+---
+
+<!-- page 4 -->
+
+### Assessment of the vegetation damage by wildfire
+
+1. Evaluate the damage caused by Dixie fire in California
+2. From the perspectives of the vegetation, water and soil change over time
+2. Generating [reuseable calculation scripts](https://github.com/BayiLi081/remote-sensing-notes/tree/main/spectral_indices_calculation)
+
+
+???
+
+This a small assignmennt I recently finished for a remote sensing class. It is about assessment of vegetation damage by wildfire. I know this is totally irrevelant to the programme we are talking about, but the reason I add this research is that actually remote sensing is also not my domain, and I have no previous knowledge about remote sensing. The common point is, I might not have rich experiences in economics similar as remote learning, but it shows that I am willing to learn more about it and able to learn new things really quickly.
+---
+
+### Summary
+
+.image-60[![](imgs/PersonalProfile.svg)]
+
+???
+
+My first question is 
+
+1. In the JD, it mentioned the unqiue spatial microdata will be accessible for this project. It is always exciting to work with microdata considering this kind of data is not usually public accessible. May I know what kind of data is it? For example, the topic of data, how the spatial information is stored, and what the non-spatial information it contains.
+
+2. Another question is that when is the expected start date of the programme?
+
+
+- The disadvantage of ABM
+
+  agent-based models are often based on simplifying assumptions and approximations, which can limit the accuracy and precision of the results they produce. This means that the results of an agent-based model should be interpreted with caution, and should not be considered definitive.
+
+  Overall, while agent-based modeling can be a powerful tool for studying urban economic segregation, it is important to consider these limitations and to use the approach carefully and thoughtfully in order to ensure that the results are meaningful and useful.
+
+  Why Phd?
+
+  Why this PhD?
+
+  - I am interested in the topic of the programme. My undergraduate graduation project is about unpriviliged population who lives in the urban village of Shanghai. I was a urban planning students back then so I was using design strategies to provide the residents a better environment. A year later, when I got into ABM study and review the project, I feel like it could be understand from the perspectives of migration and long-term impact. Because this is the biggest and last village within Shanghai City boundary and the government always want to tear it down and rebuilt it in a few years. Most of the residents in the village are lower salary migration worker. When they have a very limited adaptivity to the environmental change and their huge population, it will cause a chanllenge of living, working for them after the government tear down the affordable housing they are living. It's a classic problem of gentrification. So I was thinking with ABM, we can actually modelling the agents, thats the residents, when their relocation choice and the impact on demand and supply of surronding rent market. And also, when they being redistributed into the city, is the original segregation, the village boundary, disappered with the village. Or being intensitfied. But somehow we didnt manage to finish the project, which is a pity. I think this programme is a good opportunity to learn more about the inequility and segregation happening in Netherland or any other city.
+
+  Why choose TUD?
+
+  - TUD has a super great reputation in urban environment both in urban planning and Geography. I actually have many friends who studied in TU Delft, either architecture or GIS, so I know a little bit about the university. I think it is a good place to study.
+
+  - The current lead of urban analytics lab of NUS, Dr. Fillip, is a former student of TU Delft. I had frequent contact with his PhD student on several projects. From what I heard, TUD has a rather sufficient resources in urban analytics and spatial data science.
+
+  Although I havent been able to visit Netherland so far, I did spend my master at the UK, also Europe. I think the culture and openning environment is very welcoming and comfortable to live. So I wante to go back and study in Europe again.
+
+    </textarea>
+    <script src="src/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({ ratio: "16:9" });
+    </script>
+  </body>
+</html>
